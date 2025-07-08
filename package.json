@@ -1,0 +1,21 @@
+{
+  "name": "book-stor",
+  "version": "1.0.0",
+  "description": "book stor",
+  "license": "ISC",
+  "author": "ibrahem",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
